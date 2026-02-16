@@ -40,7 +40,9 @@ export async function runOpencode(opts: {
   const settings = await readSettings();
   const machineId = settings?.machineId;
   if (!machineId) {
-    console.error(`[OpenCode] No machine ID found in settings. Please report this issue.`);
+    console.error(`[OpenCode] No machine ID found in settings. This is unexpected.`);
+    console.error(`Please try running 'happy auth login' to set up your account.`);
+    console.error(`If the issue persists, please report it on GitHub.`);
     process.exit(1);
   }
   

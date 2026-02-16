@@ -700,8 +700,6 @@ ${chalk.bold('Examples:')}
   happy acp gemini         Start Gemini via generic ACP runner
   happy acp -- opencode --acp
                            Start a custom ACP command
-  happy acp opencode --verbose
-                           Print raw ACP backend/envelope events
   happy auth login --force Authenticate
   happy doctor             Run diagnostics
 
