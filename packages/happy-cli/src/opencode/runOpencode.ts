@@ -42,7 +42,7 @@ export async function runOpencode(opts: {
   if (!machineId) {
     console.error(`[OpenCode] No machine ID found in settings. This is unexpected.`);
     console.error(`Please try running 'happy auth login' to set up your account.`);
-    console.error(`If the issue persists, please report it on GitHub.`);
+    console.error(`If the issue persists, please report it at: https://github.com/slopus/happy/issues`);
     process.exit(1);
   }
   
