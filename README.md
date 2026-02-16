@@ -1,11 +1,11 @@
 <div align="center"><img src="/.github/logotype-dark.png" width="400" title="Happy Coder" alt="Happy Coder"/></div>
 
 <h1 align="center">
-  Mobile and Web Client for Claude Code & Codex
+  Mobile and Web Client for Claude Code, Codex & OpenCode
 </h1>
 
 <h4 align="center">
-Use Claude Code or Codex from anywhere with end-to-end encryption.
+Use Claude Code, Codex, or OpenCode from anywhere with end-to-end encryption.
 </h4>
 
 <div align="center">
@@ -53,7 +53,7 @@ yarn release
 ```
 
 <h3 align="center">
-Step 3: Start using `happy` instead of `claude` or `codex`
+Step 3: Start using `happy` with your favorite AI agent
 </h3>
 
 ```bash
@@ -68,18 +68,23 @@ happy
 
 happy codex
 
+# Instead of: opencode
+# Use: happy opencode
+
+happy opencode
+
 ```
 
 <div align="center"><img src="/.github/mascot.png" width="200" title="Happy Coder" alt="Happy Coder"/></div>
 
 ## How does it work?
 
-On your computer, run `happy` instead of `claude` or `happy codex` instead of `codex` to start your AI through our wrapper. When you want to control your coding agent from your phone, it restarts the session in remote mode. To switch back to your computer, just press any key on your keyboard.
+On your computer, run `happy` instead of `claude`, `happy codex` instead of `codex`, or `happy opencode` instead of `opencode` to start your AI through our wrapper. When you want to control your coding agent from your phone, it restarts the session in remote mode. To switch back to your computer, just press any key on your keyboard.
 
 ## 🔥 Why Happy Coder?
 
-- 📱 **Mobile access to Claude Code and Codex** - Check what your AI is building while away from your desk
-- 🔔 **Push notifications** - Get alerted when Claude Code and Codex needs permission or encounters errors  
+- 📱 **Mobile access to Claude Code, Codex, and OpenCode** - Check what your AI is building while away from your desk
+- 🔔 **Push notifications** - Get alerted when your AI agent needs permission or encounters errors  
 - ⚡ **Switch devices instantly** - Take control from phone or desktop with one keypress
 - 🔐 **End-to-end encrypted** - Your code never leaves your devices unencrypted
 - 🛠️ **Open source** - Audit the code yourself. No telemetry, no tracking
